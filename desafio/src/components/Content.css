@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    height: 592px;
     width: 70%;
     margin: 0 auto;
 }
@@ -11,7 +12,7 @@
     width: 50%;
 }
 .img-premio{
-    width: 400px;
+    width: 335px;
     height: auto;
 }
 form{
@@ -19,31 +20,55 @@ form{
     color: #ffffff;
     background: #0000000D;
     border: 1px solid #FFFFFF1A;
-    width: 529px;
+    width: 355px;
     height: 536px;
     display: flex;
     flex-direction: column;
     align-items:center ;
-    justify-content: space-between;
-
+    justify-content: space-around;
+}
+form h2{
+    font-size: 24px;
+    align-items: center;
+    font-weight: 400;
+    margin-bottom: 5px;
 }
 input {
-    height: 26px;
+    border: 1px solid #CFD8DC;
+    border-radius: 4px;
+    color: #CFD8DC;
+    padding: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
-
 .input-dados{
     display: flex;
     width: 100%;
-    border-radius: 4px;
+    justify-content: space-between;
 }
 .input-dados-radio{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.content-radio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    gap: 5px;
 }
 .radio{
-    
+    width: 20px;
+    height: 20px;
 }
 .input-dados-check-box{
     display: flex;
@@ -52,14 +77,40 @@ input {
     gap: 10px;
 }
 .check{
-    width: 20px;
+    width: 24px;
+    height: 24px;
 }
 button{
     background: #FFCA28;
-    padding: 10px 230px;
+    padding: 18px 140px;
     border-radius: 4px;
     color:  #263238;
     font-weight: 700;
     font-size: 18px;
-    width: 100%;
+    text-align:end;
+    
+    
+}
+form h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/*Conteudo parte 2 */
+.conteudo-parte2{
+     background: #00C1E3;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     background: #00C1E3;
+     height: 499px;
+     width: 70%;
+     margin: 0 auto;
+     gap: 15px;
+}
+video{
+    width : 543px ;
+    height : 419 px;
 }
