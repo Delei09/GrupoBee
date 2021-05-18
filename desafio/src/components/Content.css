@@ -4,12 +4,11 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 592px;
-    width: 70%;
+    height: auto;
     margin: 0 auto;
 }
 .content{
-    width: 50%;
+    width: 380px;
 }
 .img-premio{
     width: 335px;
@@ -20,6 +19,7 @@
 /*Conteudo parte 2 */
 .conteudo-parte2{
      background: #00C1E3;
+     height: auto;
 }
 .container{
     display: flex;
@@ -27,9 +27,9 @@
     justify-content: space-around;
      background: #00C1E3;
      height: 499px;
-     width: 70%;
      margin: 0 auto;
      gap: 15px;
+     padding: 10px;
 }
 .image-Beeleads{
     background-image: url('../img/womanradio21.png');
@@ -40,12 +40,6 @@
     background-repeat: space;
     
 }
-.brush{
-    position:absolute;
-   right: 71%;
-   left: 25%;
-    top: 150%;
-}
 .video{
     height: 100%;
     display: flex;
@@ -53,4 +47,16 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 850px){
+    .image-Beeleads{
+        max-width: 350px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 500px){
+    .container{
+      flex-wrap: wrap;  
+      height: auto;
+    }
+}
 

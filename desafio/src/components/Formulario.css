@@ -49,6 +49,12 @@ input {
     font-weight: 700;
     gap: 5px;
 }
+.radio{
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
 .input-dados-check-box{
     display: flex;
     width: 100%;
@@ -70,5 +76,10 @@ form h4{
     font-weight: 400;
 }
 
+@media screen and (max-width: 640px){
+    .input-dados{
+      flex-direction: column;
+    }
+}
 
 
