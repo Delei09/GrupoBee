@@ -1,0 +1,65 @@
+/*Conteudo parte 1   */
+.conteudo-parte1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+.content{
+    width: 50%;
+}
+.img-premio{
+    width: 400px;
+    height: auto;
+}
+form{
+    padding: 20px;
+    color: #ffffff;
+    background: #0000000D;
+    border: 1px solid #FFFFFF1A;
+    width: 529px;
+    height: 536px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-between;
+
+}
+input {
+    height: 26px;
+    width: 100%;
+}
+
+.input-dados{
+    display: flex;
+    width: 100%;
+    border-radius: 4px;
+}
+.input-dados-radio{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.radio{
+    
+}
+.input-dados-check-box{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.check{
+    width: 20px;
+}
+button{
+    background: #FFCA28;
+    padding: 10px 230px;
+    border-radius: 4px;
+    color:  #263238;
+    font-weight: 700;
+    font-size: 18px;
+    width: 100%;
+}

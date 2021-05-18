@@ -1,0 +1,8 @@
+.footer{
+    height: 144px;
+    width: auto;
+    background-image: url('../img/Rectangle\ 7.png');
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

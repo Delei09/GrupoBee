@@ -1,3 +1,10 @@
+*{
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+}
+
 body{
     background: #546E7A;
 
