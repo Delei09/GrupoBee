@@ -1,0 +1,74 @@
+form{
+    padding: 20px;
+    color: #ffffff;
+    background: #0000000D;
+    border: 1px solid #FFFFFF1A;
+    width: 355px;
+    height: 536px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-around;
+}
+form h2{
+    font-size: 24px;
+    align-items: center;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+input {
+    border: 1px solid #CFD8DC;
+    border-radius: 4px;
+    color: #CFD8DC;
+    padding: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input-dados{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.input-dados-radio{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.content-radio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    gap: 5px;
+}
+.input-dados-check-box{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.botao{
+    background: #FFCA28;
+    padding: 0px 110px;
+    border-radius: 4px;
+    color:  #263238;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+form h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+

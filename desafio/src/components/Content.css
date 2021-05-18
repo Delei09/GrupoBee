@@ -15,86 +15,7 @@
     width: 335px;
     height: auto;
 }
-form{
-    padding: 20px;
-    color: #ffffff;
-    background: #0000000D;
-    border: 1px solid #FFFFFF1A;
-    width: 355px;
-    height: 536px;
-    display: flex;
-    flex-direction: column;
-    align-items:center ;
-    justify-content: space-around;
-}
-form h2{
-    font-size: 24px;
-    align-items: center;
-    font-weight: 400;
-    margin-bottom: 5px;
-}
-input {
-    border: 1px solid #CFD8DC;
-    border-radius: 4px;
-    color: #CFD8DC;
-    padding: 5px;
-    height: 40px;
-    margin-bottom: 20px;
-}
-.input{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.input-dados{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-.input-dados-radio{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-.content-radio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    font-weight: 700;
-    gap: 5px;
-}
-.radio{
-    width: 20px;
-    height: 20px;
-}
-.input-dados-check-box{
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-    gap: 10px;
-}
-.check{
-    width: 24px;
-    height: 24px;
-}
-button{
-    background: #FFCA28;
-    padding: 18px 140px;
-    border-radius: 4px;
-    color:  #263238;
-    font-weight: 700;
-    font-size: 18px;
-    text-align:end;
-    
-    
-}
-form h4{
-    font-size: 12px;
-    font-weight: 400;
-}
+
 
 /*Conteudo parte 2 */
 .conteudo-parte2{
@@ -110,7 +31,26 @@ form h4{
      margin: 0 auto;
      gap: 15px;
 }
-video{
-    width : 543px ;
-    height : 419 px;
+.image-Beeleads{
+    background-image: url('../img/womanradio21.png');
+    width: 335px;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: space;
+    
 }
+.brush{
+    position:absolute;
+   right: 71%;
+   left: 25%;
+    top: 150%;
+}
+.video{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

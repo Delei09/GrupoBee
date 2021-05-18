@@ -1,4 +1,5 @@
-import './App.css';
+import './App.css'
+import 'video-react/dist/video-react.css'
 import React from 'react'
 import Header from './components/Header'
 import Content from './components/Content'
