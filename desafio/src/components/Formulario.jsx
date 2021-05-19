@@ -11,15 +11,15 @@ function Formulario(){
         </div>
         <div className = 'input-dados'>
              <input type = 'text' placeholder = 'Telefone' />
-             <input type = 'text' placeholder = 'Data de Nascimento' />
+             <input type = 'text/date' placeholder = 'Data de Nascimento' />
         </div>
         <div className = 'input-dados-radio' >
             <div className = 'content-radio'> 
-                <input className = 'radio' type="radio" />
-                <label className = 'label' for="male">Masculino</label> 
+                <input className = 'radio' name='sexo'  type="radio" />
+                <label className = 'label' >Masculino</label> 
             </div>
             <div className = 'content-radio'>
-                <input className ='radio'  type="radio" />
+                <input className ='radio' name='sexo' type="radio" />
                 <label className = 'label' >Feminino</label> 
             </div>
         </div>
