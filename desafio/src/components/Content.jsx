@@ -1,8 +1,7 @@
 import React from 'react'
 import './Content.css'
 import ImagemPremio from '../img/BigPremioNativa 1.png'
-import Brush from '../img/brushh.png'
-import Woman from '../img/womanradio21.png'
+import WomamBrush from '../img/womanBrush.png'
 import Formulario from './Formulario'
 import Video from './Video'
 
@@ -19,10 +18,7 @@ import Video from './Video'
          <div className="conteudo-parte2">
                 <div className = 'container'>
                     <div className = 'image-Beeleads'>
-                         <img alt = 'imagem premio' src ={Woman} />
-                         <div className = 'brush'>
-                                
-                         </div>
+                         <img alt = 'imagem premio' src ={WomamBrush} />
                     </div>
                     <div className = 'video'>
                     < Video />

@@ -37,9 +37,19 @@
     z-index: 1;
     position: relative;
 }
+.brush{
+    position: static;
+}
 .brush img{
-    width: 50px;
-
+    width: 8vh;
+    position:absolute;
+    z-index: 2;
+    right: 175vh;
+    bottom: -77vh;
+    top: 137vh;
+    left: 28vh;
+    
+    
 }
 .video{
     height: 100%;
