@@ -3,7 +3,7 @@ import './Formulario.css'
 import axios from 'axios'
 
 const initial = { nome : '' , email : '' , telefone : '' , nascimento : '',
-                sexo : '' , inputCheck : '', val : ''
+                sexo : '' , inputCheck : ''
 }
 
 class Formulario extends Component {
@@ -52,7 +52,6 @@ class Formulario extends Component {
         )
     }
     botao(){
-        let {val} = this.state
         return(
             <input type = 'button' className = 'botao'  value = 'Quero Conhecer' 
                 onClick = {e => {
@@ -79,8 +78,8 @@ class Formulario extends Component {
     }
     validar(){
         let {nome, email, telefone , nascimento, sexo, inputCheck } = this.state
-        if( (nome == '' ) || (email == '') || (telefone == '') ||
-         (sexo == '') || (nascimento == '') || (inputCheck == '' ) ){
+        if( (nome ==='' ) || (email ==='') || (telefone ==='') ||
+         (sexo ==='') || (nascimento ==='') || (inputCheck ==='' ) ){
             alert('Digite cadastro corretamente')
         }else{
             this.setState({val : 'ok'})

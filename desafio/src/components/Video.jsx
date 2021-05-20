@@ -2,7 +2,7 @@
 import React from 'react';
 import './Video.css'
 
-export default props => {
+const  video = () => {
   return (
     <iframe src="https://www.youtube.com/embed/aJT9F2oHrSg" 
     title="YouTube video player" 
@@ -12,3 +12,5 @@ export default props => {
      allowfullscreen></iframe>
   );
 };
+
+export default video

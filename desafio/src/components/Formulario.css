@@ -12,9 +12,9 @@ form{
     margin: 10px ;
 }
 form h2{
-    font-size: 24px;
+    font-size: 20px;
     align-items: center;
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 input {
@@ -64,6 +64,9 @@ input {
     justify-content: flex-start;
     gap: 10px;
 }
+.input-dados-check-box label{
+    font-size:14px ;
+}
 
 .botao{
     background: #FFCA28;
@@ -75,7 +78,7 @@ input {
     cursor: pointer;
 }
 form h4{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
 }
 
@@ -88,6 +91,7 @@ form h4{
     }
     form{
         max-width: 100%;
+        justify-content: center;
     }
 }
 @media screen and (max-width: 460px){

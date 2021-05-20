@@ -7,5 +7,6 @@ iframe{
 @media screen and (max-width: 850px){
     iframe{
         max-width: 350px;
+        margin: 10px;
     }
 }
