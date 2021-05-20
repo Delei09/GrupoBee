@@ -17,11 +17,11 @@ import Video from './Video'
          </div>
          <div className="conteudo-parte2">
                 <div className = 'container'>
-                    <div className = 'image-Beeleads'>
+                    <div className = ' image-Beeleads'>
                          <img alt = 'imagem premio' src ={WomamBrush} />
                     </div>
-                    <div className = 'video'>
-                    < Video />
+                    <div className = ' video'>
+                         < Video />
                     </div>
                 </div>
          </div>

@@ -24,17 +24,20 @@
 .container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
      background: #00C1E3;
-     height: 499px;
+     height: 400px;
      margin: 0 auto;
-     gap: 15px;
-     padding: 10px;
+     
+     
+}
+.image-Beeleads{
+    margin-right: 15px;
+    align-self: flex-end;
 }
 .image-Beeleads img{
-    width: 335px;
+    width: 314px;
     height: auto;    
-    z-index: 1;
     position: relative;
 }
 .brush{

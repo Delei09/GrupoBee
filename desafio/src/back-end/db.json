@@ -1,0 +1,36 @@
+{
+  "cadastro": [
+    {
+      "id": 1,
+      "nome": "delei",
+      "email": "delei@outlook",
+      "telefone": "2132321323",
+      "nascimento": "12/12/12",
+      "sexo": "masculino"
+    },
+    {
+      "nome": "vanderlei de oliveira lemos",
+      "email": "vanderlei_09@outlook.com",
+      "telefone": "35997111055",
+      "nascimento": " ",
+      "sexo": "",
+      "id": 2
+    },
+    {
+      "nome": "vanderlei de oliveira lemos",
+      "email": "vanderlei_09@outlook.com",
+      "telefone": "35997111055",
+      "nascimento": " ",
+      "sexo": "",
+      "id": 3
+    },
+    {
+      "nome": " ",
+      "email": " ",
+      "telefone": " ",
+      "nascimento": " ",
+      "sexo": "",
+      "id": 4
+    }
+  ]
+}
