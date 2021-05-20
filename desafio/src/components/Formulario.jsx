@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import './Formulario.css'
 import axios from 'axios'
 
-const initial = { nome : ' ' , email : ' ' , telefone : ' ' , nascimento : ' ',
-                sexo : '' , inputCheck : ''
+const initial = { nome : '' , email : '' , telefone : '' , nascimento : '',
+                sexo : '' , inputCheck : '', val : ''
 }
 
 class Formulario extends Component {
@@ -22,7 +22,7 @@ class Formulario extends Component {
         return(
             <div className = 'input-dados'>
                 <input type = 'text' placeholder = 'Telefone' onChange = {e => this.setState({telefone : e.target.value})} />
-                 <input type = 'text/date' placeholder = 'Data de Nascimento' onChange = {e => this.setState({nascimento : e.target.value})} />
+                 <input type = 'text' placeholder = 'Data de Nascimento' onChange = {e => this.setState({nascimento : e.target.value})} />
              </div>
         )
     }
@@ -52,12 +52,11 @@ class Formulario extends Component {
         )
     }
     botao(){
+        let {val} = this.state
         return(
-            <input type = 'reset' className = 'botao'  value = 'Quero Conhecer' 
+            <input type = 'button' className = 'botao'  value = 'Quero Conhecer' 
                 onClick = {e => {
-                    this.salvarDadosFormulario()
-                    this.limpar()
-                    return alert(' Cadastro Salvo! Obrigado!')
+                        this.validar()
                 }}
             
             />
@@ -71,10 +70,22 @@ class Formulario extends Component {
         console.log(cadastro)
         const url = 'http://localhost:3003/cadastro'
         axios.post(url , cadastro)
-        
+        this.limpar()
+        alert(`cadastro salvo, obrigado ${nome}!`)
+        window.location.reload(false); 
     }
     limpar(){
         this.setState({...initial})
+    }
+    validar(){
+        let {nome, email, telefone , nascimento, sexo, inputCheck } = this.state
+        if( (nome == '' ) || (email == '') || (telefone == '') ||
+         (sexo == '') || (nascimento == '') || (inputCheck == '' ) ){
+            alert('Digite cadastro corretamente')
+        }else{
+            this.setState({val : 'ok'})
+            this.salvarDadosFormulario()
+        }
     }
     textoFormH4(){
         return(
