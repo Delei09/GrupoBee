@@ -2,27 +2,11 @@
   "cadastro": [
     {
       "id": 1,
-      "nome": "delei",
-      "email": "delei@outlook",
-      "telefone": "2132321323",
-      "nascimento": "12/12/12",
+      "nome": "vanderlei",
+      "email": "vanderlei_09@outlook.com",
+      "telefone": "35997111055",
+      "nascimento": "09/05/1993",
       "sexo": "masculino"
-    },
-    {
-      "nome": "vanderlei de oliveira lemos",
-      "email": "vanderlei_09@outlook.com",
-      "telefone": "35997111055",
-      "nascimento": "23121223",
-      "sexo": "masculino",
-      "id": 2
-    },
-    {
-      "nome": "vanderlei de oliveira lemos",
-      "email": "vanderlei_09@outlook.com",
-      "telefone": "35997111055",
-      "nascimento": "4664646464646",
-      "sexo": "masculino",
-      "id": 3
     }
   ]
 }

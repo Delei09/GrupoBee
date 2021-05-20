@@ -26,12 +26,17 @@
 @media screen and (max-width: 500px) {
     .header{
         
-        max-width: 326px;
+        width: 326px;
     }
    
     .logo  img{
         max-width: 100px;
         height: auto;
+    }
+}
+@media screen and (max-width: 330px){
+    .header{
+        width: 250px;
     }
 }
 

@@ -66,7 +66,6 @@ class Formulario extends Component {
         let {nome, email , telefone , nascimento ,
         sexo } = this.state
         let cadastro = {  nome , email , telefone ,nascimento , sexo }
-        console.log(cadastro)
         const url = 'http://localhost:3003/cadastro'
         axios.post(url , cadastro)
         this.limpar()

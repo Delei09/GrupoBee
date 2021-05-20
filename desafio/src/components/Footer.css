@@ -9,3 +9,11 @@
 .icones a{
     color: white;
 }
+
+@media screen and (max-width: 500px) {
+   
+    .logo-footer img{
+        width: 80px;
+    }
+    
+}
